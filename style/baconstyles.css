@@ -27,6 +27,9 @@ main{
     align-items: center;
     height: 300px;
 }
+h1{
+    font-family: 'Anton', sans-serif;
+}
 .info{
     display: flex;
     flex-direction: column;
