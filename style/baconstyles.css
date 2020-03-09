@@ -1,0 +1,87 @@
+@media (min-width: 320px){
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(51,168,221);
+}
+header{
+    background-color:rgba(46, 56, 52, 0.329)
+}
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    font-size: 45px;
+    display: flex;
+    background-color:rgb(51,168,221);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+h3{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.smoked{
+    background-color: rgb(51,168,221);
+}
+.Char{
+    background-color:rgb(44,205,192) ;
+}
+.Grilled{
+    background-color: rgb(244,103,48);
+}
+}
+@media(min-width: 720px){
+.container{
+    background-color:rgb(44,205,192);
+}
+header{
+    background-color:rgba(46, 56, 52, 0.329) ;
+}
+nav{
+    font-size: 25px;
+}
+main{
+    background-color:rgb(44,205,192) ;
+    height: 400px;
+}
+.info{
+    display: grid;
+    grid-template-areas: 
+    "link1 link2 link3";
+    height: 500px;
+    background-color: black;
+    color: white;
+}
+.link1{
+    grid-area: link1;
+}
+.link2{
+    grid-area: link2;
+}
+.link3{
+    grid-area: link3;
+}
+
+}
